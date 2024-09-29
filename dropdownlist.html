@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu Example</title>
+    <link rel="stylesheet" href="dropdownlist.css">
+</head>
+<body>
+    <header>
+        <h1>My Dropdown Website</h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li>
+                    <a href="#services">Services</a>
+                    <ul class="dropdown">
+                        <li><a href="#consulting">Consulting</a></li>
+                        <li>
+                            <a href="#development">Development</a>
+                            <ul class="dropdown">
+                                <li><a href="#web-dev">Web Development</a></li>
+                                <li><a href="#app-dev">App Development</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#design">Design</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to My Website</h2>
+            <p>This is the home section.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a variety of services to meet your needs.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Learn more about our mission and values.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us through this section.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Dropdown Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

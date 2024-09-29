@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Haven</title>
+    <link rel="stylesheet" href="test1.css">
+</head>
+<body>
+    <header>
+        <h1>Coffee Haven</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Welcome to Your Favorite Coffee Shop!</h2>
+            <p>Experience the best coffee in town.</p>
+            <button onclick="alert('Thanks for visiting!')">Order Now</button>
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <article>
+                <h3>Espresso</h3>
+                <p>A rich, dark coffee brewed by forcing hot water through finely ground coffee beans.</p>
+                <span class="price">$3.00</span>
+            </article>
+            <article>
+                <h3>Latte</h3>
+                <p>Espresso combined with steamed milk and topped with foam.</p>
+                <span class="price">$4.00</span>
+            </article>
+            <article>
+                <h3>Cappuccino</h3>
+                <p>A perfect blend of espresso, steamed milk, and foamed milk.</p>
+                <span class="price">$4.50</span>
+            </article>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are passionate about coffee and committed to providing the best experience for our customers.</p>
+            <figure>
+                <img src="coffee-shop.jpg" alt="Coffee Shop Interior">
+                <figcaption>Our cozy interior.</figcaption>
+            </figure>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Coffee Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
